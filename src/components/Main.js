@@ -31,7 +31,7 @@ function Main({ onAddPlace, onCardClick, onEditAvatar, onEditProfile }) {
             .catch((error) => {
                 console.log(error)
             })
-    }, [userName, userDescription, userAvatar])
+    }, [])
 
 
     return (
